@@ -11,3 +11,13 @@ echo "1. Add"
 echo "2 Subtract"
 echo "3. Multiply"
 echo "4. Division"
+read choose
+
+case $choose in
+1)
+let result="$a+$b"
+;;
+esac
+echo "Result value is : $result"
+
+
