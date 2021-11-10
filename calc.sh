@@ -20,6 +20,9 @@ let result="$a+$b"
 2)
 let result="$a-$b"
 ;;
+3)
+let result="$a*$b"
+;;
 esac
 echo "Result value is : $result"
 
